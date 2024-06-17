@@ -8,7 +8,7 @@ const File = () => {
 
   return (
     <div>
-      <h2>File Page</h2>
+      <h2></h2>
    
       {/* Add your file page content here */}
     </div>
