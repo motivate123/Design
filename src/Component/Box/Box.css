@@ -1,0 +1,78 @@
+/* .part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    top: 280px;
+   
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    top: 380px;
+}
+.co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    margin: 0;
+}
+.card {
+    
+   /* Darker background color */
+    /* border-color: #000; /* Darker border color */
+    /* White text color for better contrast */
+    /* background-color: aquamarine; */
+    .square-card {
+        background-color: #333; /* Darker background color */
+        border-color: #000; /* Darker border color */
+        color: #fff; /* White text color for better contrast */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem; /* Add some padding inside the card */
+        width: 100%; /* Full width to maintain responsiveness */
+        aspect-ratio: 1 / 1; /* Ensure the card remains square */
+        margin-bottom: 1.5rem; /* Space between stacked cards */
+    }
+    
+    .co {
+        margin: 0; /* Ensure there is no margin around the h1 element */
+        font-size: 2rem; /* Adjust font size for "33" text */
+        line-height: 1; /* Ensure tight vertical spacing */
+    }
+    
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Ensure the card body takes up the full width of the card */
+        height: 100%; /* Ensure the card body takes up the full height of the card */
+    }
+    
+    .card-text {
+        margin-top: 0.5rem; /* Adjust margin between "33" and "Lorem ipsum" text */
+    }
+    
+    @media (max-width: 991.98px) {
+      .square-card {
+        margin-bottom: 0.75rem; /* Reduce space between stacked cards on smaller screens */
+      }
+    }
+    
+    
+    
+    
+    
+    
+    
+
+    
